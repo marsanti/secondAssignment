@@ -21,5 +21,5 @@ It use the classical pipeline to generate BoW of the sliced prompt:
 3. perform either ***lemmatization*** or ***stemming*** using the Porter Stemmer algorithm;
 4. calculate frequencies.
 
-Then, having the BoW, it will check for cousine similarity with the previous slice (i.e. the adjacent one).
+Then, having the BoW, it will check for cousine similarity with the previous slice (i.e. the adjacent one).  
 If the similarity is below 0.8 it will be selected as a slice. Otherwise it will try to generate a new slice with context window halved.
