@@ -7,7 +7,7 @@ An algorithm to generate slicing of excessive context window for LLMs.
 - [Replicate](https://pypi.org/project/replicate/)
 
 ## How to use
-In order to use the script you need to add a Replicate API key to the [.env](.env) file.
+In order to use the script you need to add a Replicate API key to the [.env](.env) file.  
 Launch `./start.sh` to start the script.
 
 ## Project description
