@@ -9,6 +9,7 @@ An algorithm to generate slicing of excessive context window for LLMs.
 ## How to use
 In order to use the script you need to add a Replicate API key to the [.env](.env) file.  
 Launch `./start.sh` to start the script.
+To change the prompt edit [prompt](prompt.txt) file.
 
 ## Project description
 Given the prompt, we generate an answer using Llama2 powered by [Replicate](https://replicate.com/).
